@@ -96,3 +96,44 @@ a{
 a:hover{
     border-bottom: 1px solid;
 }
+.q1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 150px;
+    height: 150px;
+    background-color: #3d423f;
+    border-radius: 20px;
+    animation: animation 5s infinite linear;
+    position: 11111111;
+    filter: blur(4px);
+}
+.q2{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    width: 150px;
+    height: 150px;
+    background-color: #3d423f;
+    border-radius: 20px;
+    animation: animation 5s 0.3s infinite linear;
+    position: 11111111;
+    filter: blur(4px);
+}
+@keyframes animation{
+    0%{
+        transform: translateY(10px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
