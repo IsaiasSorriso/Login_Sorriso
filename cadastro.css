@@ -116,7 +116,7 @@ a:hover{
     height: 150px;
     background-color: #3d423f;
     border-radius: 20px;
-    animation: animation 5s 0.3s infinite linear;
+    animation: animation 5s infinite linear;
     position: 11111111;
     filter: blur(4px);
 }
